@@ -76,12 +76,12 @@ conf t
  !
  ip dhcp excluded-address 10.32.1.1 10.32.1.100
  ip dhcp excluded-address 10.32.10.1 10.32.10.100
- ip dhcp pool POOLDATA
+ ip dhcp pool MGMTDATA
   network 10.32.1.0 255.255.255.0
   default-router 10.32.1.4
   dns-server 10.32.1.10
   domain-name MGMTDATA.COM
- ip dhcp pool POOLWIFI
+ ip dhcp pool WIFIDATA
   network 10.32.10.0 255.255.255.0
   default-router 10.32.10.4
   dns-server 10.32.1.10
